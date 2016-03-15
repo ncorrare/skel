@@ -2,13 +2,11 @@
 language: ruby
 bundler_args: --without system_tests
 script: "bundle exec rake validate && bundle exec rake lint && bundle exec rake spec SPEC_OPTS='--format documentation' && bundle exec rake metadata_lint"
-env:
-  - secure: "EfYyYV97WNAc9pbU6FX01eDFhbiEg/DDle3AjYH3JieQrs+6FSusKbCVmKcvvC/1VtLQti2vTPTkUA7DgbKFKdntNg3fTSWN5P/H52gGDzsUn28jGcJvXHWPPdFrHxHSnwvHpRjl4WZONpsoe6IzziuPWwr7PET8P7bbxwkSxMudphWpbIvSokEWxCaB1YNXJwYJjMJWl630MqexgCHAs8k1k7Sh0u6+5r9Hq28CjLj2Ur9USbaSBkl/4kMviHojC8eNGdmNCcVK386MF5JUGYiBINUoyiuc72w5WHlwKOAaZo5UhjqkC4nT9ZotYUignyXtAz8MPzTRMa3Y+4V18jA4tZL4rP+MmbSeFshf/ZF+XNQbWqmOwXQWgGwxCymspS8atDpZNekRzFXao1904sD8BQ8mOamJ4xoBN1YP/OXSsNVYEwXLGLofe5fYdwEw1rIugK02mZc5FRLI5/IrqKT+udJqUZI6ageAme0VyzX/h1aiykT81BDgn1XwMMtD6oFjDE+F5hoTy9hnB1VCC651P1iF5BDga/Xd3CHtNDrzYiU1A1oCn+MFL+D3Jqj+BXdUQzz78ZA2YvmuKQyGHMm65Z3CrMcR1g9M6kbnSILC1EMzLnHxh6nJdPs39XWqnBuL3JRb1qx1k7F+z32camt55YFHtfEVROtYcuP/EPY="
 matrix:
   fast_finish: true
   include:
   - rvm: 2.1.8
-    env: PUPPET_GEM_VERSION="~> 4.3"
+    env: PUPPET_GEM_VERSION="~> 4.3" secure="EfYyYV97WNAc9pbU6FX01eDFhbiEg/DDle3AjYH3JieQrs+6FSusKbCVmKcvvC/1VtLQti2vTPTkUA7DgbKFKdntNg3fTSWN5P/H52gGDzsUn28jGcJvXHWPPdFrHxHSnwvHpRjl4WZONpsoe6IzziuPWwr7PET8P7bbxwkSxMudphWpbIvSokEWxCaB1YNXJwYJjMJWl630MqexgCHAs8k1k7Sh0u6+5r9Hq28CjLj2Ur9USbaSBkl/4kMviHojC8eNGdmNCcVK386MF5JUGYiBINUoyiuc72w5WHlwKOAaZo5UhjqkC4nT9ZotYUignyXtAz8MPzTRMa3Y+4V18jA4tZL4rP+MmbSeFshf/ZF+XNQbWqmOwXQWgGwxCymspS8atDpZNekRzFXao1904sD8BQ8mOamJ4xoBN1YP/OXSsNVYEwXLGLofe5fYdwEw1rIugK02mZc5FRLI5/IrqKT+udJqUZI6ageAme0VyzX/h1aiykT81BDgn1XwMMtD6oFjDE+F5hoTy9hnB1VCC651P1iF5BDga/Xd3CHtNDrzYiU1A1oCn+MFL+D3Jqj+BXdUQzz78ZA2YvmuKQyGHMm65Z3CrMcR1g9M6kbnSILC1EMzLnHxh6nJdPs39XWqnBuL3JRb1qx1k7F+z32camt55YFHtfEVROtYcuP/EPY="
   - rvm: 2.1.6
     env: PUPPET_GEM_VERSION="~> 4.2"
 notifications:
