@@ -1,0 +1,14 @@
+{
+  "name": "ncorrare-skel",
+  "version": "0.1.0",
+  "author": "ncorrare",
+  "summary": "An extremely opinionated template aligned to how I module",
+  "license": "Apache-2.0",
+  "source": "https://github.com/ncorrare/ncorrare-skel",
+  "project_page": "https://github.com/ncorrare/ncorrare-skel",
+  "issues_url": "https://github.com/ncorrare/ncorrare-skel/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
