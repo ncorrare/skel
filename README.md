@@ -26,5 +26,5 @@ Remaining information is popuplated from Travis environment variables.
 ### Beginning with skel
 
 Create a branch, and after doing a PR it will test and merge automatically if tests work.
-Now with autodeploy
+Now with autodeploy and more debug
 
