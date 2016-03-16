@@ -19,4 +19,4 @@ notifications:
 after_success:
   - "curl -o /tmp/travis-automerge https://raw.githubusercontent.com/ncorrare/travis-scripts/master/aftersuccessforge.sh"
   - "chmod a+x /tmp/travis-automerge"
-  - "BRANCHES_TO_MERGE_REGEX='feature-' BRANCH_TO_MERGE_INTO=master GITHUB_REPO=ncorrare/skel /tmp/travis-automerge"
+  - "/tmp/travis-automerge"
