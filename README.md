@@ -22,6 +22,7 @@ You need to create (using travis encrypt, from the travis gem) to create the fol
 - BLACKSMITH_FORGE_PASSWORD
 
 and set up USENETWORK to true and DEPLOY to true in order for deployment to work
+Remaining information is popuplated from Travis environment variables.
 ### Beginning with skel
 
 Create a branch, and after doing a PR it will test and merge automatically if tests work.
