@@ -25,6 +25,5 @@ and set up USENETWORK to true and DEPLOY to true in order for deployment to work
 Remaining information is popuplated from Travis environment variables.
 ### Beginning with skel
 
-Create a branch, and after doing a PR it will test and merge automatically if tests work.
-Now with autodeploy and more debug
+Create a branch, and after doing a PR it will test and merge automatically if tests work. If DEPLOY is set to true it will tag, change metadata.json, commit, push, build and deploy to the forge
 
