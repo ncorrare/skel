@@ -24,5 +24,5 @@ You need to create (using travis encrypt, from the travis gem) to create the fol
 and set up USENETWORK to true and DEPLOY to true in order for deployment to work
 ### Beginning with skel
 
-Create a "feature-*" branch, and it will test and merge automatically if tests work.
+Create a branch, and after doing a PR it will test and merge automatically if tests work.
 
