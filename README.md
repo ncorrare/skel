@@ -26,3 +26,4 @@ and set up USENETWORK to true and DEPLOY to true in order for deployment to work
 
 Create a branch, and after doing a PR it will test and merge automatically if tests work.
 
+This is the living feature-test branch
