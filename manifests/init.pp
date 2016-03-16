@@ -44,6 +44,6 @@
 #
 class skel {
 
-  notify('This is a simple class')
+  notify('This is an example resource')
 
 }
