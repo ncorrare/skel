@@ -13,9 +13,9 @@ matrix:
   - rvm: 2.1.8
     env: PUPPET_VERSION="~> 4.4"
   - rvm: 2.1.8
-    env: PUPPET_VERSION="~> 4.3" FACTER_VERSION="~> 3.1"
+    env: PUPPET_VERSION="~> 4.3" FACTER_VERSION="~> 2.4"
   - rvm: 2.1.6
-    env: PUPPET_VERSION="~> 4.2" FACTER_VERSION="~> 3.1"
+    env: PUPPET_VERSION="~> 4.2" FACTER_VERSION="~> 2.4"
 notifications:
   email: nicolas@corrarello.com
 after_success:
