@@ -4,13 +4,22 @@
   "author": "ncorrare",
   "summary": "An extremely opinionated template aligned to how I module",
   "license": "Apache-2.0",
-  "source": "https://github.com/ncorrare/ncorrare-skel",
-  "project_page": "https://github.com/ncorrare/ncorrare-skel",
-  "issues_url": "https://github.com/ncorrare/ncorrare-skel/issues",
+  "source": "https://github.com/ncorrare/skel",
+  "project_page": "https://github.com/ncorrare/skel",
+  "issues_url": "https://github.com/ncorrare/skel/issues",
+  "operatingsystem_support": [
+        {
+        "operatingsystem":"RedHat",
+        "operatingsystemrelease":[ "6.0","7.0" ]
+        }
+       ],
+  "requirements": [
+    { "name": "pe","version_requirement": " >=2015.2.0 < 2016.1.0" }
+  ],
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
-      "version_requirement": ">= 1.0.0"
+      "version_requirement": "4.x"
     }
   ]
 }
