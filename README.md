@@ -1,4 +1,5 @@
 # skel
+[![Build Status](https://travis-ci.org/ncorrare/skel.svg?branch=master)](https://travis-ci.org/ncorrare/skel)
 
 #### Table of Contents
 
