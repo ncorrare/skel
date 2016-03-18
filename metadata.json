@@ -1,6 +1,6 @@
 {
   "name": "ncorrare-skel",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "ncorrare",
   "summary": "An extremely opinionated template aligned to how I module",
   "license": "Apache-2.0",
@@ -8,13 +8,19 @@
   "project_page": "https://github.com/ncorrare/skel",
   "issues_url": "https://github.com/ncorrare/skel/issues",
   "operatingsystem_support": [
-        {
-        "operatingsystem":"RedHat",
-        "operatingsystemrelease":[ "6.0","7.0" ]
-        }
-       ],
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6.0",
+        "7.0"
+      ]
+    }
+  ],
   "requirements": [
-    { "name": "pe","version_requirement": " >=2015.2.0 < 2016.1.0" }
+    {
+      "name": "pe",
+      "version_requirement": " >=2015.2.0 < 2016.1.0"
+    }
   ],
   "dependencies": [
     {
