@@ -3,8 +3,7 @@ bundler_args: "--without system_tests"
 branches:
   only:
   - master
-script: bundle exec rake validate && bundle exec rake lint && bundle exec rake spec
-  SPEC_OPTS='--format documentation' && bundle exec rake metadata_lint
+script: bundle exec rake validate && bundle exec rake lint && bundle exec rake spec SPEC_OPTS='--format documentation' && bundle exec rake metadata_lint
 env:
   global:
   - secure: KyD6tc2lxDbwFXH3SU4Tb325Ck5ZyZHEyD2vzHx4Z7n/IP2aLV58foM29fBooqsz4kilNa4PeFzb9hLeUmtn1EM/c6lffAcDu4FG4gLE9FBYVoAa+RWQUbRSL7IgZyoUy4olglCvtsOGu5WsveKA9ekmWpmhu2Mou4Z4Pi4zY+NiDhItgUP9pGG6WtjkgNjuLq9VW0KzBxYsTrSoLlTgnPZpeZ6gwmuKnYkRXtyH7Z4P2Cqf0MSy3Z2ZnAgPfXspI1Gh2FZXcZuQUWgt44+h+3zDJpHAIKTowxL57xOq4h1ZSeZkpM2YvviflJJhZJBlp6zrduPVr3HezTULVbyapJqLTtstWswcrMkqL1HRNPFpHexU1ZSTiqa2nGqnMTK2ZeIUrwFzJ4DFmgGqdBDmU/DNzySxivAajh4kPjgSgFHNfd7JxZ5JfA0CkJSCBtToDZiEv9zeDlJANhsPSQHUg6srb8fMhQz8nD2sLOFAgQA2I2awGPQhEk7SLsEXRYMeYnsenRTcz+3sqjinguacBS/C0WOlbuMY8m/ArtlRPMuLELKtoM3QA+de/hcztW+gRw/cgCbpuYl+x/CS+6nnLzI8bNE8c4b+V1O/mMlwYZ8KOCUulkn6bQslw+02o+izr8JJn1ZLhJWjk1NrGd10mRbe0ZDpAD9GctkglR8QpuQ=
