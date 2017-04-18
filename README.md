@@ -29,3 +29,4 @@ Remaining information is popuplated from Travis environment variables.
 
 Create a branch, and after doing a PR it will test and merge automatically if tests work. If DEPLOY is set to true it will tag, change metadata.json, commit, push, build and deploy to the forge
 
+This is the living feature-test branch
